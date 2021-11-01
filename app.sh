@@ -1,0 +1,1 @@
+watchmedo shell-command -W --recursive --pattern '*.md' --command 'cat src/*.md > dist/master.md && pandoc -f markdown -t epub3 dist/master.md --css ./style.css -o dist/epub.epub --epub-cover-image=cover.png' src
