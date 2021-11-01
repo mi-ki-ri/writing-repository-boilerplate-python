@@ -1,5 +1,7 @@
 # Writing Repository Boilerplate (Python Version)
 
+## About
+
 Download this repository.
 
 Rename repository.
@@ -15,3 +17,11 @@ $ sh app.sh
 Write your contents to src directory.
 
 When you save, app.sh merge and build epub to dist directory.
+
+## Customize
+
+Replace `cover.png` your own 512*800 png file to covering book.
+
+Add CSS to `style.css` to styling text.
+
+( Now, [Water.css](https://watercss.kognise.dev/) and Google Fonts is importing. )
